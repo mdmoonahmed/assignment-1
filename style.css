@@ -197,6 +197,7 @@ main .feedback-star img{
   padding-top: 100px;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 80px;
  }
  .form-title {
   font-size: 97px;
@@ -225,4 +226,32 @@ main .feedback-star img{
   display: block;
   font-weight: 600px;
   font-size: 18px;
+ }
+ /* footer styles */
+ .footer-title {
+  font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+ }
+ footer {
+  max-width: 531px;
+  text-align: center;
+  margin: 104px auto;
+ }
+ .footer-nav {
+  display: flex;
+  justify-content: space-around;
+
+ }
+ .footer-description, .footer-nav {
+  color: #8987A1;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 0 45px;
+ }
+ footer .footer-nav li {
+  list-style: none;
+ }
+ footer .footer-nav a {
+  text-decoration: none;
  }
