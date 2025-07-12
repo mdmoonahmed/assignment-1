@@ -191,3 +191,38 @@ main .feedback-star img{
   border-radius: 14px;
   padding: 24px;
  }
+ /* form styles */
+ .form-container {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .form-title {
+  font-size: 97px;
+  font-weight: bold;
+ }
+ input, textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 10px 0 19px 0;
+ }
+ input {
+  height: 70px;
+  border: 0px;
+  padding: 20px;
+ }
+ .secondary-button {
+  width: 100%;
+ }
+ textarea {
+  padding: 20px;
+  border: 0px;
+ }
+ label {
+  display: block;
+  font-weight: 600px;
+  font-size: 18px;
+ }
